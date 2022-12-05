@@ -1,5 +1,8 @@
 # Kaggle---TensorFlow-Help-Protect-the-Great-Barrier-Reef
-Detect crown-of-thorns starfish in underwater image data
+
+Solution Ranking
+--
+Silver Medal
 
 Goal of the Competition
 --
@@ -7,6 +10,10 @@ The goal of this competition is to accurately identify starfish in real-time by 
 
 
 Your work will help researchers identify species that are threatening Australia's Great Barrier Reef and take well-informed action to protect the reef for future generations.
+
+Metric
+--
+
 
 Context
 --
