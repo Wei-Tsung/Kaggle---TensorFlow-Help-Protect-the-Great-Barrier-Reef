@@ -31,11 +31,11 @@ Your work will help researchers identify species that are threatening Australia'
 
 Official Dataset Link [TensorFlow - Help Protect the Great Barrier Reef](https://www.kaggle.com/c/petfinder-pawpularity-score/data)
 
-本次比赛数据规模如下： 训练集： 23,000 多张图片 测试集：约13,000 张图片 预测的格式是一个边界框，以及每个被识别的海星的置信度。**每张图片可能包含任意数量（包括0）的海星**。 
+Dataset Volume： Training Set： 23,000+, Testset：Roughly 13,000 images, 预测的格式是一个边界框，以及每个被识别的海星的置信度。**每张图片可能包含任意数量（包括0）的海星**。 
 
-本次比赛使用一个隐藏的测试集，该测试集将由一个API提 供，以确保你按照每个视频中记录的相同顺序来评估图像。 当你提交的笔记本被打分时，实际的测试数据（包括提交 的样本）将提供给你的笔记本。
+This competition uses a hidden test set that will be served by an API to ensure you evaluate the images in the same order they were recorded within each video. When your submitted notebook is scored, the actual test data (including a sample submission) will be availabe to your notebook.
 
-数据中包含了train.csv和test.csv 
+### Dataset includes train.csv and test.csv :
 
 - video_id -图片所在的视频的ID号。视频ID是没有意义的排序。
 - video_frame - 视频中图像的帧号。希望看到从潜水员浮出水面时起，帧号中偶尔会有空隙。
