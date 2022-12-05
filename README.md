@@ -24,9 +24,9 @@ https://www.kaggle.com/c/tensorflow-great-barrier-reef]
 
   
 
-## 数据说明
+## Dataset
 
-官方数据页面 [TensorFlow - Help Protect the Great Barrier Reef](https://www.kaggle.com/c/petfinder-pawpularity-score/data)
+Official Dataset Link [TensorFlow - Help Protect the Great Barrier Reef](https://www.kaggle.com/c/petfinder-pawpularity-score/data)
 
 本次比赛数据规模如下： 训练集： 23,000 多张图片 测试集：约13,000 张图片 预测的格式是一个边界框，以及每个被识别的海星的置信度。**每张图片可能包含任意数量（包括0）的海星**。 
 
