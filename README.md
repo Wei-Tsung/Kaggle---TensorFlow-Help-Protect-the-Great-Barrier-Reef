@@ -4,7 +4,9 @@
 
 Detect crown-of-thorns starfish in underwater image data
 
-https://www.kaggle.com/c/tensorflow-great-barrier-reef
+https://www.kaggle.com/c/tensorflow-great-barrier-reef]
+
+# Solution Ranking : Silver Medal
 
 ## 比赛介绍
 
