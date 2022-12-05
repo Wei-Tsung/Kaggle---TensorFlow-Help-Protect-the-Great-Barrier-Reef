@@ -2,7 +2,6 @@
 Detect crown-of-thorns starfish in underwater image data
 
 Goal of the Competition
-
 --
 The goal of this competition is to accurately identify starfish in real-time by building an object detection model trained on underwater videos of coral reefs.
 
@@ -10,7 +9,6 @@ The goal of this competition is to accurately identify starfish in real-time by 
 Your work will help researchers identify species that are threatening Australia's Great Barrier Reef and take well-informed action to protect the reef for future generations.
 
 Context
-
 --
 Australia's stunningly beautiful Great Barrier Reef is the world’s largest coral reef and home to 1,500 species of fish, 400 species of corals, 130 species of sharks, rays, and a massive variety of other sea life.
 
