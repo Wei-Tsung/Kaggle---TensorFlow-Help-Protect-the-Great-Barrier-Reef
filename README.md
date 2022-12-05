@@ -3,15 +3,12 @@
 ### Detect crown-of-thorns starfish in underwater image data
 
 
-[Kaggle : Official Competition Detail](https://www.kaggle.com/c/tensorflow-great-barrier-reef)
-
-
 <img src="https://storage.googleapis.com/kaggle-media/competitions/Google-Tensorflow/video_thumb_kaggle.png">
 
 ## Solution Ranking : Silver Medal
 
 ## Introduction
-
+[Kaggle : Official Competition in Detail](https://www.kaggle.com/c/tensorflow-great-barrier-reef)
 本次竞赛中，参赛者目标是通过建立一个在珊瑚礁水下视频中训练的**物体检测模型**，实时准确地识别**棘冠海星（COTS）**
 
 - Competition Task：**Computer Vision : Object Detection**, Recommended Architecture：**Yolov5**
