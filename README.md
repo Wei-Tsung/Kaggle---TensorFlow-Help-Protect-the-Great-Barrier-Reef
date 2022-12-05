@@ -14,7 +14,7 @@ https://www.kaggle.com/c/tensorflow-great-barrier-reef]
 
 - Competition Task：**Computer Vision-Object Detection**, Recommended Architecture：**Yolov5**
 
-- 赛题数据：赛题数据图像的数量适中，挑战点在于图像均是来自于视频，以及大部分图像中并没有目标的出现，会不太好训练。 训练集：23,000多张图片，隐藏的测试集：大约是13000张图片。
+- Dataset Core Challenges：赛题数据图像的数量适中，挑战点在于图像均是来自于视频，以及大部分图像中并没有目标的出现，会不太好训练。 Training Set：23,000+Images，Hideen Testset：Roughly 13000 images。
 
 - Evaluation Metric：**IOU + F2** 
 
