@@ -15,7 +15,7 @@ The goal of this competition is to accurately identify starfish in real-time by 
 
 Your work will help researchers identify species that are threatening Australia's Great Barrier Reef and take well-informed action to protect the reef for future generations.
 
-- Competition Task：**Computer Vision : Object Detection**, Recommended Architecture：**Yolov5**
+- Competition Task：**Computer Vision : Object Detection**, **Recommended Architecture：Yolov5**
 
 - Dataset Core Challenges：赛题数据图像的数量适中，挑战点在于图像均是来自于视频，以及大部分图像中并没有目标的出现，会不太好训练。 Training Set：23,000+Images，Hideen Testset：Roughly 13000 images。
 
