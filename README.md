@@ -191,7 +191,7 @@ head:
 
 ## Code、Dataset Structure
 
-+ Code Base
++ Code Base (In Jupyter Notebook)
   + gbr_train.ipynb
   + gbr_inference.ipynb
 + Training Data
