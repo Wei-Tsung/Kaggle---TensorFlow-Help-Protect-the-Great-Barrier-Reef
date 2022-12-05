@@ -17,7 +17,7 @@ Your work will help researchers identify species that are threatening Australia'
 
 - Competition Task：**Computer Vision : Object Detection**, **Recommended Architecture：Yolov5**
 
-- Dataset Core Challenges：赛题数据图像的数量适中，挑战点在于图像均是来自于视频，以及大部分图像中并没有目标的出现，会不太好训练。
+- Dataset Core Challenges：挑战点在于图像均是来自于视频，以及大部分图像中并没有目标的出现，会不太好训练。
 
 - Evaluation Metric：**IOU + F2** 
 
