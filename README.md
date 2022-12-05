@@ -12,11 +12,11 @@ https://www.kaggle.com/c/tensorflow-great-barrier-reef]
 
 本次竞赛中，参赛者目标是通过建立一个在珊瑚礁水下视频中训练的**物体检测模型**，实时准确地识别**棘冠海星（COTS）**
 
-- 竞赛类型：本次竞赛属于**计算机视觉-目标检测**，所以推荐使用的模型：**Yolov5**
+- Competition Task：**Computer Vision-Object Detection**, Recommended Architecture：**Yolov5**
 
 - 赛题数据：赛题数据图像的数量适中，挑战点在于图像均是来自于视频，以及大部分图像中并没有目标的出现，会不太好训练。 训练集：23,000多张图片，隐藏的测试集：大约是13000张图片。
 
-- 评估标准：**IOU + F2** （见讲义1中的详解）。
+- Evaluation Metric：**IOU + F2** 
 
 - 推荐阅读 Kaggle 内的一篇 EDA（探索数据分析）来获取一些预备知识：[Learning to Sea: Underwater img Enhancement + EDA | Kaggle](https://www.kaggle.com/soumya9977/learning-to-sea-underwater-img-enhancement-eda)
 
