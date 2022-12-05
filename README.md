@@ -38,10 +38,10 @@ This competition uses a hidden test set that will be served by an API to ensure 
 ### Dataset includes train.csv and test.csv :
 
 - video_id - ID number of the video the image was part of. The video ids are not meaningfully ordered.
-- video_frame -  The frame number of the image within the video. Expect to see occasional gaps in the frame number from when the diver surfaced.
-- sequence -  ID of a gap-free subset of a given video. The sequence ids are not meaningfully ordered.
+- video_frame - The frame number of the image within the video. Expect to see occasional gaps in the frame number from when the diver surfaced.
+- sequence - ID of a gap-free subset of a given video. The sequence ids are not meaningfully ordered.
 - sequence_frame - The frame number within a given sequence.
-- image_id -ID code for the image, in the format '{video_id}-{video_frame}'
+- image_id - ID code for the image, in the format '{video_id}-{video_frame}'
 - annotations - The bounding boxes of any starfish detections in a string format that can be evaluated directly with Python. Does not use the same format as the predictions you will submit. Not available in test.csv. A bounding box is described by the pixel coordinate (x_min, y_min) of its upper left corner within the image together with its width and height in pixels.
 
 
