@@ -56,7 +56,7 @@ Tracker是一种视频目标追踪技术，本次竞赛我们使用了norfair库
 
 
 
-## 比赛上分历程
+## 比赛上分历程 Scores in progress
 
 1. yolov5 baseline，Public score 0.630。
 2. 增加yolov5中yaml文件中的数据增强部分（后续实验表明不宜过大）, Public score 0.634。
@@ -189,15 +189,15 @@ head:
 
 
 
-## 代码、数据集
+## Code、Dataset Structure
 
-+ 代码
++ Code Base
   + gbr_train.ipynb
   + gbr_inference.ipynb
-+ 训练数据集
-  - 官网图像数据：[TensorFlow - Help Protect the Great Barrier Reef](https://www.kaggle.com/c/petfinder-pawpularity-score/data)
++ Training Data
+  - Official Dataset：[TensorFlow - Help Protect the Great Barrier Reef](https://www.kaggle.com/c/petfinder-pawpularity-score/data)
   - train-5folds.csv
-+ 推理额外数据集
++ 推理额外数据集 Additional Dataset For Inference
   + [YOLOv5 font | Kaggle](https://www.kaggle.com/awsaf49/yolov5-font)
   + [bbox lib ds | Kaggle](https://www.kaggle.com/awsaf49/bbox-lib-ds)
   + [loguru lib ds | Kaggle](https://www.kaggle.com/awsaf49/loguru-lib-ds)
