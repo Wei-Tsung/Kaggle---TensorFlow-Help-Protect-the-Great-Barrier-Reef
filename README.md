@@ -37,12 +37,12 @@ This competition uses a hidden test set that will be served by an API to ensure 
 
 ### Dataset includes train.csv and test.csv :
 
-- video_id -图片所在的视频的ID号。视频ID是没有意义的排序。
-- video_frame - 视频中图像的帧号。希望看到从潜水员浮出水面时起，帧号中偶尔会有空隙。
-- sequence - 视频的（无间隙的）ID序列。序列的ID是没有意义的排序。
-- sequence_frame - 一个给定的序列中的帧号。
-- image_id -图像的ID代码，格式为"{video_id}-{video_frame} 
-- annotations - 海星的标注边界框，其格式为可以直接用Python计算的字符串。边界框由图像中左上角 的像素坐标（x_min, y_min）以及其宽度和高度（像素）来描述 (x,y,h,w)。
+- video_id - ID number of the video the image was part of. The video ids are not meaningfully ordered.
+- video_frame -  The frame number of the image within the video. Expect to see occasional gaps in the frame number from when the diver surfaced.
+- sequence -  ID of a gap-free subset of a given video. The sequence ids are not meaningfully ordered.
+- sequence_frame - The frame number within a given sequence.
+- image_id -ID code for the image, in the format '{video_id}-{video_frame}'
+- annotations - The bounding boxes of any starfish detections in a string format that can be evaluated directly with Python. Does not use the same format as the predictions you will submit. Not available in test.csv. A bounding box is described by the pixel coordinate (x_min, y_min) of its upper left corner within the image together with its width and height in pixels.
 
 
 ## 解决方案思路
