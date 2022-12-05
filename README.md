@@ -8,7 +8,7 @@ https://www.kaggle.com/c/tensorflow-great-barrier-reef]
 
 # Solution Ranking : Silver Medal
 
-## 比赛介绍
+## Introduction
 
 本次竞赛中，参赛者目标是通过建立一个在珊瑚礁水下视频中训练的**物体检测模型**，实时准确地识别**棘冠海星（COTS）**
 
@@ -18,7 +18,7 @@ https://www.kaggle.com/c/tensorflow-great-barrier-reef]
 
 - Evaluation Metric：**IOU + F2** 
 
-- 推荐阅读 Kaggle 内的一篇 EDA（探索数据分析）来获取一些预备知识：[Learning to Sea: Underwater img Enhancement + EDA | Kaggle](https://www.kaggle.com/soumya9977/learning-to-sea-underwater-img-enhancement-eda)
+- Recommended Reading : Kaggle Essay About EDA（Exploratory Data Analysis）：[Learning to Sea: Underwater img Enhancement + EDA | Kaggle](https://www.kaggle.com/soumya9977/learning-to-sea-underwater-img-enhancement-eda)
 
 - YOLOv5 baseline：[Great-Barrier-Reef: YOLOv5 [train]](https://www.kaggle.com/awsaf49/great-barrier-reef-yolov5-train ) 
 
