@@ -55,7 +55,8 @@ We used two types of strategies：一种是简单的视频分割，另一种是�
 
 #### Tracker
 
-Tracker是一种视频目标追踪技术，本次竞赛我们使用了norfair库（Norfair 是一个可定制的轻量级 Python 库，用于实时对象跟踪）。在推理阶段起到了很好的连续跟踪之前图像中检测到的目标，参数上，我们选择则较为严格的跟踪策略。
+Tracker是一种视频目标追踪技术，本次竞赛我们使用了norfair库（Norfair is a light-weight custom Python library，for real-time Object Detection）。
+在推理阶段起到了很好的连续跟踪之前图像中检测到的目标，参数上，我们选择则较为严格的跟踪策略。
 
 
 
