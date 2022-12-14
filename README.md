@@ -212,8 +212,7 @@ head:
 
 ## Final Result Reflection Summary
 
-我们的方案基于YOLOv5完成，我们修改了模型结构，增大了模型中feature map尺寸以更好的检测海星(小目标)，因为本次训练集只基于3段视频，于是我们之后又增加了一些数据增强的强度，来防止过拟合，取得了不错的效果。在最后的推理阶段，我们加入了视频目标追踪Tracker，来连续跟踪之前检测到的目标。很遗憾我们在推理阶段尝试了各种形变、颜色等TTA都没有提升精度。最终我们获得了Private LB: 0.699 (Top2%) 的成绩。
-
+Our solution is basically based on YOLOv5. We modified the model structure and increased the size of the feature maps in the model to better detect starfish (small targets). Because this training set was only based on 3 videos, we utilized some data augmentation techniques to prevent overfitting that achieved better results. In the final inference stage, we add a video object tracking Tracker to continuously track previously detected objects. It is a pity that we tried various TTAs(Test-Time Augmentations) such as deformation and different colors in the inference stage, but the accuracy didn't improve much. In the end we got Private LB: 0.699 (Top2%).
  
 
 <img src="https://user-images.githubusercontent.com/26456083/86477109-5a7ca780-bd7a-11ea-9cb7-48d9fd6848e7.jpg">
