@@ -31,7 +31,7 @@ Your work will help researchers identify species that are threatening Australia'
 
 Official Dataset Link [TensorFlow - Help Protect the Great Barrier Reef](https://www.kaggle.com/c/petfinder-pawpularity-score/data)
 
-Dataset Volume： Training Set： 23,000+, Testset：Roughly 13,000 images, 预测的格式是一个边界框，以及每个被识别的海星的置信度。**每张图片可能包含任意数量（包括0）的海星**。 
+Dataset Volume： Training Set： 23,000+, Testset：Roughly 13,000 images, The format of the prediction is a bounding box, and a confidence level score for each identified starfish. Each image may contain any number (including 0) of starfish.。 
 
 This competition uses a hidden test set that will be served by an API to ensure you evaluate the images in the same order they were recorded within each video. When your submitted notebook is scored, the actual test data (including a sample submission) will be availabe to your notebook.
 
