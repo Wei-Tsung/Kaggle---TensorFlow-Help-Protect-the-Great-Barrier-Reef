@@ -17,7 +17,7 @@ Your work will help researchers identify species that are threatening Australia'
 
 - Competition Task：**Computer Vision : Object Detection**, **Recommended Architecture：Yolov5**
 
-- Dataset Core Challenges：挑战点在于图像均是来自于视频，以及大部分图像中并没有目标的出现，会不太好训练。
+- Dataset Core Challenges：The core challenge is that the images(many frames) are all from videos, and there are no target(0 shown up) in most of the images, which will cause difficulty for model training.
 
 - Evaluation Metric：**IOU + F2** 
 
