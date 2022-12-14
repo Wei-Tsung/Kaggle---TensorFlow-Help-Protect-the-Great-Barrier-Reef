@@ -45,13 +45,15 @@ This competition uses a hidden test set that will be served by an API to ensure 
 - annotations - The bounding boxes of any starfish detections in a string format that can be evaluated directly with Python. Does not use the same format as the predictions you will submit. Not available in test.csv. A bounding box is described by the pixel coordinate (x_min, y_min) of its upper left corner within the image together with its width and height in pixels.
 
 
-## 解决方案思路
+## Main Solution Ideations :
 #### Cross-Validation
 As for cross-validation,
 We used two types of strategies：一种是简单的视频分割，另一种是基于子序列的5折。后期我们主要看的是子序列交叉验证的分数。子序列交叉验证我们只保留了有bboxes的图像。
 
 #### Yolov5
 我们在yolov5l6上训练，调整了模型结构（增大了模型中featuremap尺寸以更好的检测小目标）和超参数，在3100分辨率的图片上进行训练，模型使用adam和20个epoch进行训练。推理是在没有tta的3100*1.5分辨率上完成的。
+
+We trained based on yolov5l6, adjusted the model structure (increased the size of the featuremap in the model to better detect small targets) and hyperparameters, trained on 3100 resolution pictures, and trained the model with Adam Optimizer and 20 epochs. Inference is done on 3100*1.5 resolution without Test Time Augmentation.
 
 #### Tracker
 
